@@ -1,0 +1,31 @@
+## 7. Top 10 Products ##
+
+SELECT
+    p.ProductName,
+    SUM(s.OrderQuantity) AS units_sold,
+
+    ROUND(
+        SUM(s.OrderQuantity * p.ProductPrice),
+        2
+    ) AS revenue,
+
+    ROUND(
+        SUM(
+            s.OrderQuantity *
+            (p.ProductPrice - p.ProductCost)
+        ),
+        2
+    ) AS profit
+
+FROM sales s
+
+JOIN products p
+    ON s.ProductKey = p.ProductKey
+
+GROUP BY
+    p.ProductKey,
+    p.ProductName
+
+ORDER BY revenue DESC
+
+LIMIT 10;
