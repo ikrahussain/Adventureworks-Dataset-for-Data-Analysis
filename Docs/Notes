@@ -1,0 +1,53 @@
+AdventureWorks Data Analysis Project
+Introduction
+
+For this project, I used the AdventureWorks dataset from Kaggle to practise the full data analysis process. I used Jupyter Notebook with Python to clean and transform the data, MySQL to analyse it using SQL, and Power BI to create visualisations and a dashboard.
+
+The main aim was to take the raw data and turn it into useful information that could help understand sales, customers, products, returns and territories.
+
+1. Data Cleaning and Transformation – Jupyter Notebook
+I started by downloading the AdventureWorks dataset from Kaggle. The dataset contained several CSV files covering areas such as sales, customers, products, returns and territories.
+
+I used Jupyter Notebook and Python, mainly with Pandas, to explore and clean the data.
+
+I first checked the datasets to understand their structure, number of rows and columns, data types and any missing or duplicate values. I then cleaned the data where necessary and made sure the columns were in the correct format.
+I also combined the sales data from different years so that I could analyse the sales information together rather than separately.
+
+The main purpose of this stage was to make sure the data was clean, consistent and ready to be analysed.
+
+2. Data Analysis – MySQL
+After cleaning the data in Jupyter Notebook, I imported it into MySQL.
+
+I used MySQL to analyse the data using SQL queries. I looked at things such as:
+- Total sales
+- Sales by year
+- Sales by product category
+Sales by territory
+- Customer performance
+- Product returns
+
+I used SQL functions such as SUM(), COUNT() and GROUP BY, as well as JOINs to combine information from different tables.
+
+Using MySQL helped me understand the relationships between the different datasets and allowed me to answer specific business questions using the data.
+
+3. Data Visualisation - Power BI
+Once I had analysed the data, I used Power BI to create an interactive dashboard.
+
+I used different visualisations to make the results easier to understand. These included KPI cards, bar charts, line charts and filters.
+
+The dashboard allowed me to look at overall sales performance and then explore the data by areas such as year, product, category and territory.
+
+The main purpose of using Power BI was to turn the results from my analysis into something that could be easily understood by someone without technical knowledge of Python or SQL.
+
+4. Overall Process
+
+I used each tool for a different part of the project:
+- Kaggle - source of the raw data
+- Jupyter Notebook/Python - cleaned and transformed the data
+- MySQL - analysed the data using SQL
+- Power BI - visualised the results and created the dashboard
+
+Conclusion
+This project gave me experience of working through a complete data analysis process. I learned how to take raw data, clean and transform it using Python, analyse it using SQL and then present the results using Power BI.
+
+It also helped me understand how different tools can be used together rather than relying on one tool for the whole analysis process. Overall, the project improved my practical skills in Python, SQL, data cleaning, data analysis and Power BI visualisation.
