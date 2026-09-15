@@ -43,65 +43,80 @@ I used Jupyter Notebook and Python to clean and transform the data, MySQL to ana
 
 ## Dataset
 
-Provide details about the dataset used:
+Yes. For this section, I would keep it clear and not overcomplicate it. One thing to note is that the Kaggle dataset is made up of **10 separate tables**, so there isn't one single row/column count for the whole dataset. Kaggle lists **62 columns across the files**, with each table having a different number of rows and columns.  Kaggle
 
-- Source of the dataset (link if available)  
-- Size of the dataset (# of rows and columns)  
-- Key features/columns used  
-- Any preprocessing or cleaning steps  
+ Dataset✓
+
+## Dataset
+
+ ### Source
+
+- I used the **AdventureWorks Dataset for Data Analysis** from Kaggle. The dataset was provided by Maven Analytics and contains 10 different tables covering areas such as sales, customers, products, returns, dates and territories. 
+
+- This is the link: https://www.kaggle.com/datasets/shaikhshoeb/adventureworks-dataset-for-data-analysis
+
+ ### Size
+
+- The dataset contains **10 separate tables and 62 columns in total**.
+- The number of rows and columns varies between each table because they contain different types of information.
+- The main sales tables contain information such as order date, order number, product, customer, territory and order quantity. 
+
+ ### Key Features/Columns
+ 
+ The dataset contains 10 different tables, with each table providing different information about the business. I used the following key columns in my analysis:
+
+  - Sales: OrderDate, OrderNumber, ProductKey, CustomerKey, TerritoryKey and OrderQuantity. These columns allowed me to analyse when sales were made, which products and customers were involved, where the sales took place and how many products were sold.
+
+  - Customers: CustomerKey, FirstName, LastName, Gender, AnnualIncome and Occupation. I used these columns to understand customer information and analyse sales based on different customer characteristics.
+
+  - Products: ProductKey, ProductName, ProductSubcategoryKey, ProductCost and ProductPrice. These were used to analyse product performance, pricing and costs.
+
+  - Product Categories and Subcategories: ProductCategoryKey, CategoryName, ProductSubcategoryKey and SubcategoryName. These allowed me to group products into categories and subcategories when analysing sales performance.
+
+  - Returns: ReturnDate, TerritoryKey, ProductKey and ReturnQuantity. These columns were used to analyse product returns and identify products or areas with higher return levels.
+
+  - Territories: SalesTerritoryKey, Region, Country and Continent. I used these to compare sales performance across different geographical areas.
+
+  - Calendar: Date. This was used to support the analysis of sales over time.
+
+The different tables are connected using key columns such as ProductKey, CustomerKey and TerritoryKey. This allowed me to join the tables in MySQL and analyse the data together rather than looking at each table separately. 
+These columns allowed me to connect the different tables and analyse sales performance by products, customers, dates and territories. 
+
+ ### Preprocessing and Cleaning
+
+- Before analysing the data, I used **Jupyter Notebook and Python/Pandas** to check the datasets for missing values, duplicate records and incorrect data types.
+- I cleaned the data where necessary and made sure dates and other fields were in the correct format.
+- I also combined the sales data from the different years into one dataset so that I could analyse the overall sales performance across the period.
+- This made the data easier to work with when I later imported it into MySQL for SQL analysis.\
+ :::
 
 ---
 
 <h2>Technologies Used</h2>
 
 <ul>
-  <li><strong>Languages & Libraries:</strong> Python, Pandas, NumPy, SQL, Matplotlib, Seaborn</li>
+  <li><strong>Languages & Libraries:</strong> Python, Pandas, Numpy, MySQL,</li>
   <li><strong>Tools:</strong> Jupyter Notebook, VS Code, Git, GitHub</li>
   <li><strong>Data Visualization:</strong> Power BI / Tableau (if applicable)</li>
 </ul>
 
 
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib">
-  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn">
+  <img src="https://img.shields.io/badge/-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Jupyter_Notebooks-013243?style=for-the-badge&logo=jupyter_notebooks&logoColor=white" alt="Jupyter Notebooks">
+  <img src="https://img.shields.io/badge/MySQL-11557C?style=for-the-badge&logo=MYsql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Power_BI-4C72B0?style=for-the-badge&logo=Power_BI&logoColor=white" alt="Power BI">
 </p>
 
 ---
-
-## Installation
-
-Example of a Step-by-step instructions to set up the project locally:
-
-```bash
-
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-
-# Navigate to the project folder
-cd YOUR_REPO
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch Jupyter Notebook
-jupyter notebook
-
-
-```
 
 ## Usage
 
 Instructions for using the project:
 
-1. Open the main notebook (`analysis.ipynb`)  
+1. Open the main notebook ('http://localhost:8786/notebooks/Adventureworks%20Dataset%20JN.ipynb?')  
 2. Run each cell sequentially to reproduce the analysis  
 3. Visualizations and results will be generated automatically  
-
-Include screenshots of your visualizations if available:  
-
-![Visualization Example](assets/images/screenshot.png)  
 
 ---
 
