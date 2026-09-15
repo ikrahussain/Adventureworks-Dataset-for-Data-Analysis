@@ -97,7 +97,7 @@ These columns allowed me to connect the different tables and analyse sales perfo
 <ul>
   <li><strong>Languages & Libraries:</strong> Python, Pandas, Numpy, MySQL,</li>
   <li><strong>Tools:</strong> Jupyter Notebook, VS Code, Git, GitHub</li>
-  <li><strong>Data Visualization:</strong> Power BI / Tableau (if applicable)</li>
+  <li><strong>Data Visualization:</strong> Power BI / Tableau </li>
 </ul>
 
 
