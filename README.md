@@ -8,7 +8,7 @@ The aim of the project was to understand sales performance and identify patterns
 I used Jupyter Notebook and Python to clean and transform the data, MySQL to analyse it using SQL and Power BI to visualise the results and create an interactive dashboard.
   
 
-[Dashboard link](https://tab)
+
 ---
 
 ## Table of Contents
