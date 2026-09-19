@@ -141,16 +141,34 @@ I used several different visualisations in Power BI to present my findings, incl
 - Return charts to identify products or areas with higher levels of returns.
 - Filters and slicers to allow the data to be explored by year, product, category and territory.
 
+Executive Dashboard: 
+
+
 <img width="1530" height="862" alt="image" src="https://github.com/user-attachments/assets/388d4766-47a6-42aa-8e9c-92265b01f26b" />
 
+
+
+
+
+Product Performance: 
 
 <img width="1538" height="850" alt="image" src="https://github.com/user-attachments/assets/13986a48-6fa2-4e2d-9b1e-8ffceb9148e9" />
 
 
+
+
+
+Customer Analysis:
+
 <img width="1546" height="852" alt="image" src="https://github.com/user-attachments/assets/6104e3cf-e7ee-4d03-a66f-4e04ff9cd3aa" />
 
 
+
+
+Regional and Returns Analysis:
+
 <img width="1516" height="844" alt="image" src="https://github.com/user-attachments/assets/4f5d5af4-9e26-4542-9177-133e5098942c" />
+
 
 
 
