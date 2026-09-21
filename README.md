@@ -172,7 +172,9 @@ Regional and Returns Analysis:
 
 
 
+
 These visualisations made it easier to identify patterns in the data and allowed the results to be explored interactively.
+
 
 Important Observations:
 - The analysis showed that sales performance can vary depending on the product, category, time period and territory. Looking at returns alongside sales also provided a better understanding of product performance, as a product with high sales may also have a higher number of returns.
@@ -184,18 +186,36 @@ Overall, the Power BI dashboard helped turn the results of my SQL analysis into 
 
 ## Conclusion 
 
-- Summarize the outcome of your analysis  
-- What are the main insights or takeaways?  
-- How could this analysis inform decision-making?  
-- Recommendations or next steps for further analysis  
+- Overall, this AdventureWorks data analysis project allowed me to complete a full data analysis process, starting with raw data from Kaggle and finishing with an interactive Power BI dashboard. The dataset contains information about sales, customers, products, returns and sales territories, which made it possible to investigate different aspects of the business.
+- One of the main outcomes of the project was gaining a better understanding of how sales performance can be analysed from different perspectives. By using SQL, I was able to examine sales by year, product, product category, customer and territory. I also analysed product returns, which provided another way of looking at business performance rather than focusing only on sales.
+- A key takeaway from the project is that analysing the data at different levels can provide more useful information than looking at total sales alone. For example, comparing products and categories can help identify which areas contribute most to sales, while analysing territories can show where sales activity is concentrated. Customer analysis can also help identify differences in purchasing behaviour. Looking at returns alongside sales can provide additional information about product performance and potential areas that may require further investigation.
+- The project also demonstrated the importance of data cleaning and preparation. Before carrying out the analysis, I had to understand the structure of the different CSV files, check the data and combine the yearly sales information. The Kaggle dataset separates sales into 2020, 2021 and 2022 tables, so combining these datasets made it easier to analyse sales across the complete period.  
+
+Recommendations and next steps:
+There are several areas that could be explored further:
+
+- Profitability analysis: Sales alone do not show how profitable products are. Using the product cost and price information in the dataset, I could calculate profit and profit margins for individual products and categories. 
+- Return-rate analysis: Instead of only counting returned products, I could calculate return rates by product, category and territory and investigate which areas have unusually high return levels.
+- Customer segmentation: Customer information such as annual income, occupation and other demographic information could be used to identify different customer groups and compare their purchasing behaviour.
+- Time-series analysis: A more detailed analysis could investigate monthly or seasonal sales patterns to identify periods of higher or lower demand.
+- Product performance: Further analysis could compare sales quantity, revenue, cost, profit and returns together to provide a more complete view of product performance.
+- Predictive analysis: In a future project, forecasting techniques could be used to estimate future sales based on historical trends.
+- Dashboard development: The Power BI dashboard could be expanded with additional KPIs and interactive filters to allow users to investigate specific products, customers and territories in more detail.
+
+Overall outcome
+The main outcome of this project was not only the findings from the AdventureWorks data, but also the practical experience of completing an end-to-end data analysis project. I learned how to take raw datasets, clean and transform them using Python and Pandas, analyse relationships between tables using MySQL and SQL, and communicate the results through Power BI.
+
+The workflow of Kaggle → Jupyter Notebook → MySQL → Power BI showed me how different data analysis tools can work together. Each tool had a specific purpose: Python was used for data preparation, MySQL for structured analysis and querying, and Power BI for presenting the results.
+
+Overall, the project improved my practical skills in data cleaning, SQL, Python, data visualisation and business analysis. It also showed me how raw data can be transformed into information that can support further investigation and more informed business decision-making.
 
 ---
 
 ## Credits
 
-- **Collaborators:** Name – [GitHub Profile](https://github.com/USERNAME)  
-- **Dataset Source:** [Link](https://link-to-dataset.com)  
-- **Tutorials / References:** [Link](https://link.com)  
+
+- **Dataset Source:** [Link]([https://link-to-dataset.com](https://www.kaggle.com/datasets/shaikhshoeb/adventureworks-dataset-for-data-analysis))  
+-
 
 ---
 
