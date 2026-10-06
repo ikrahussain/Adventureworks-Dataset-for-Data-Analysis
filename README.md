@@ -3,7 +3,7 @@
 
 For my data analysis project, I used the AdventureWorks dataset from Kaggle, which contains data on sales, customers, products, returns and territories. I chose this dataset because it allowed me to work with different types of business data and practise a complete data analysis process.
 
-The aim of the project was to understand sales performance and identify patterns in products, customers, territories and returns. I wanted to answer questions such as which products and categories performed best, how sales changed over time, which territories generated the most sales, and where there were higher levels of product returns.
+The aim of the project was to understand sales performance and identify patterns in products, customers, territories and returns. I wanted to answer questions such as which products and categories performed best, how sales changed over time, which territories generated the most sales and where there were higher levels of product returns.
 
 I used Jupyter Notebook and Python to clean and transform the data, MySQL to analyse it using SQL and Power BI to visualise the results and create an interactive dashboard.
   
