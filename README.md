@@ -38,7 +38,7 @@ I used Jupyter Notebook and Python to clean and transform the data, MySQL to ana
   - I improved my skills in Python and Pandas by cleaning and transforming the data in Jupyter Notebook.
   - I also developed my SQL skills by using MySQL to join tables, filter data and calculate different metrics.
   - Finally, I learned how to use Power BI to create visualisations and present data in a way that is easier to understand.
-  - Overall, the project helped me understand how the different stages of a data analysis project connect together, from raw data through to final insights.
+  - In conclusion, the project helped me understand how the different stages of a data analysis project connect together, from raw data through to final insights.
 ---
 
 ## Dataset
